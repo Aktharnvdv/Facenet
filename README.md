@@ -1,6 +1,9 @@
 # *Facenet*:
 
-    Implementation of facenet for face recognition using triplet loss and MTCNN.
+    Implementation of facenet for face recognition. 
+    Embedding are generated for face images such that embeddings of same person are similar while different persons are different.
+    Modified ResNet function was trained using triplet loss layer plugged in and MTCNN is used for getting tightly croped face from image of person.
+    as there was shortage of training data so deepfake was used to generate rest of the images of person
 
 # *Files*:
  
